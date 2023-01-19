@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "esm": "^3.2.25",
+    "ts-node": "^10.9.1",
+    "twirpscript": "^0.0.66",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  },
+  "name": "coffeeguide_twirp",
+  "version": "1.0.0",
+  "main": "./resources/server/index.ts",
+  "scripts": {
+    "serve": "ts-node ./resources/server/index.ts",
+    "client": "ts-node ./resources/client/client.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
